@@ -1,14 +1,6 @@
 # PHP + Nginx + ngrok (Docker)
 
-## Run
-
-docker compose up
-
-Local: http://localhost:8080
-
----
-
-## ngrok token
+## Set ngrok token
 
 https://dashboard.ngrok.com/get-started/your-authtoken
 
@@ -18,7 +10,15 @@ NGROK_AUTHTOKEN: <your_token_here>
 
 ---
 
-## Public URL
+## Run
+
+docker compose up
+
+Local: http://localhost:8080
+
+---
+
+## Get public URL
 
 curl http://localhost:4040/api/tunnels
 
