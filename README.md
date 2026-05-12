@@ -12,11 +12,11 @@
 ## Teams
 * Team **Green**: Creates the plugboard, keyboard and lampboard (input and output)
 * Team **Yellow**: Creates the rotor housing and reflector
-* Team **Blue**:: Creates the rotors
+* Team **Blue**: Creates the rotors
 
 ## Requirements
 * Plugboard, reflector, rotor wiring and start positions are configurable through the plugboard
-* A full sentence can be encrypted
+* A full sentence can be encrypted (and decrypted!)
 * A UI or visual simulation is not required
 
 ## Deployments
