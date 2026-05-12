@@ -1,4 +1,6 @@
 import requests
 
-def ask():
-    return requests.get('http://rotor').json()
+def ask(q):
+    return requests.get('http://rotor', params={
+        q: q
+    }).json()
